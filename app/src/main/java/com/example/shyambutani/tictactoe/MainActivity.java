@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                                     btn1.setText("o");
                                     if ((btn1.getText() == btn2.getText() && btn1.getText() == btn3.getText()) || (btn1.getText() == btn4.getText() && btn1.getText() == btn7.getText()) || (btn1.getText() == btn5.getText() && btn1.getText() == btn9.getText()))
                                     {
-                                        result = "O wins!";
+                                        result = "O wins and O brags";
                                         Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG).show();
                                         btn1.setEnabled(false);
                                         btn2.setEnabled(false);
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
                                     btn1.setText("x");
                                     if ((btn1.getText() == btn2.getText() && btn1.getText() == btn3.getText()) || (btn1.getText() == btn4.getText() && btn1.getText() == btn7.getText()) || (btn1.getText() == btn5.getText() && btn1.getText() == btn9.getText()))
                                     {
-                                        result = "X wins!";
+                                        result = "X wins and X brags";
                                         Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG).show();
                                         btn1.setEnabled(false);
                                         btn2.setEnabled(false);
